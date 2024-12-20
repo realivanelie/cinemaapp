@@ -30,4 +30,7 @@ public class SeanceService {
         seances.add(seance);
         return seanceRepository.save(seance);
     }
+    public List<Seance> findSeancesByFilmId(Long filmId) { 
+        return seanceRepository.findByFilmId(filmId); 
+    }
 }

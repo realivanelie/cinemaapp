@@ -3,17 +3,15 @@ package com.cinemaapp.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 import com.cinemaapp.model.Film;
 import com.cinemaapp.service.FilmService;
 
-@RestController
+@Controller
 @RequestMapping("/films")
 public class FilmController {
 
@@ -21,17 +19,9 @@ public class FilmController {
     private FilmService filmService;
 
     @GetMapping
-    public List<Film> getAllFilms() {
-        return filmService.getAllFilms();
-    }
-
-    @GetMapping("/{id}")
-    public Film getFilmById(@PathVariable Long id) {
-        return filmService.getFilmById(id);
-    }
-
-    @PostMapping
-    public Film addFilm(@RequestBody Film film) {
-        return filmService.addFilm(film);
+    public String listFilms(Model model) {
+        List<Film> films = filmService.getAllFilms();
+        model.addAttribute("films", films);
+        return "index";
     }
 }

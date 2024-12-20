@@ -1,9 +1,11 @@
 package com.cinemaapp.model;
 
-import jakarta.persistence.*;
-import java.time.LocalDate;
-import java.time.LocalTime;
-import java.util.List;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 
 @Entity
 public class Seance {
@@ -12,22 +14,17 @@ public class Seance {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
-    @JoinColumn(name = "film_id", nullable = false)
-    private Film film;
+    private String date;
+    private String heure;
 
     @ManyToOne
-    @JoinColumn(name = "salle_id", nullable = false)
+    @JoinColumn(name = "salle_id")
     private Salle salle;
 
-    @OneToMany(mappedBy = "seance", cascade = CascadeType.ALL)
-    private List<Reservation> reservations;
+    @ManyToOne
+    private Film film;
 
-    private LocalDate date;
-    private LocalTime heure;
-    private int placesRestantes;
-
-    // Getters and Setters
+    // Getters et setters
     public Long getId() {
         return id;
     }
@@ -36,12 +33,20 @@ public class Seance {
         this.id = id;
     }
 
-    public Film getFilm() {
-        return film;
+    public String getDate() {
+        return date;
     }
 
-    public void setFilm(Film film) {
-        this.film = film;
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public String getHeure() {
+        return heure;
+    }
+
+    public void setHeure(String heure) {
+        this.heure = heure;
     }
 
     public Salle getSalle() {
@@ -52,35 +57,11 @@ public class Seance {
         this.salle = salle;
     }
 
-    public List<Reservation> getReservations() {
-        return reservations;
+    public Film getFilm() {
+        return film;
     }
 
-    public void setReservations(List<Reservation> reservations) {
-        this.reservations = reservations;
-    }
-
-    public LocalDate getDate() {
-        return date;
-    }
-
-    public void setDate(LocalDate date) {
-        this.date = date;
-    }
-
-    public LocalTime getHeure() {
-        return heure;
-    }
-
-    public void setHeure(LocalTime heure) {
-        this.heure = heure;
-    }
-
-    public int getPlacesRestantes() {
-        return placesRestantes;
-    }
-
-    public void setPlacesRestantes(int placesRestantes) {
-        this.placesRestantes = placesRestantes;
+    public void setFilm(Film film) {
+        this.film = film;
     }
 }

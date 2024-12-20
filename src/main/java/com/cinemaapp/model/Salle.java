@@ -1,6 +1,5 @@
 package com.cinemaapp.model;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import jakarta.persistence.CascadeType;
@@ -12,16 +11,17 @@ import jakarta.persistence.OneToMany;
 
 @Entity
 public class Salle {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private int numero;
-    private int capacite;
+
+    private String nom;
 
     @OneToMany(mappedBy = "salle", cascade = CascadeType.ALL)
-    private List<Seance> seances = new ArrayList<>();
+    private List<Seance> seances;
 
-    // Constructeurs, Getters et Setters
+    // Getters et setters
     public Long getId() {
         return id;
     }
@@ -30,20 +30,12 @@ public class Salle {
         this.id = id;
     }
 
-    public int getNumero() {
-        return numero;
+    public String getNom() {
+        return nom;
     }
 
-    public void setNumero(int numero) {
-        this.numero = numero;
-    }
-
-    public int getCapacite() {
-        return capacite;
-    }
-
-    public void setCapacite(int capacite) {
-        this.capacite = capacite;
+    public void setNom(String nom) {
+        this.nom = nom;
     }
 
     public List<Seance> getSeances() {
