@@ -6,6 +6,31 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/">Gestion de Cinéma</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/films">Films</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/about">À propos</a></li>
+                </ul>
+                <div class="search-bar">
+                    <input type="text" placeholder="Rechercher...">
+                    <button type="submit">🔍</button>
+                </div>
+                <div class="auth-links">
+                    <a href="/login" class="btn">Se connecter</a>
+                    <a href="/register" class="btn">Créer un compte</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Header -->
     <h1>Réservation Confirmée</h1>
     <p>Votre réservation pour <strong>{{film.titre}}</strong> a été confirmée.</p>
     <p>Date et heure de la séance : <strong>{{seance.date}}</strong></p>

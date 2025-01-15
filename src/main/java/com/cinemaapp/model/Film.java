@@ -7,25 +7,16 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Film {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String titre;
-    private String genre;
+    private String title;
     private String description;
-    private int duree;
+    private String imageUrl;
+    private String genre;  // Ajoutez cette ligne si vous avez besoin de la propriété 'genre'
 
-    // Constructeurs
-    public Film() {}
-
-    public Film(String titre, String genre, String description, int duree) {
-        this.titre = titre;
-        this.genre = genre;
-        this.description = description;
-        this.duree = duree;
-    }
-
-    // Getters et Setters
+    // Getters et setters
     public Long getId() {
         return id;
     }
@@ -34,20 +25,12 @@ public class Film {
         this.id = id;
     }
 
-    public String getTitre() {
-        return titre;
+    public String getTitle() {
+        return title;
     }
 
-    public void setTitre(String titre) {
-        this.titre = titre;
-    }
-
-    public String getGenre() {
-        return genre;
-    }
-
-    public void setGenre(String genre) {
-        this.genre = genre;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getDescription() {
@@ -58,11 +41,19 @@ public class Film {
         this.description = description;
     }
 
-    public int getDuree() {
-        return duree;
+    public String getImageUrl() {
+        return imageUrl;
     }
 
-    public void setDuree(int duree) {
-        this.duree = duree;
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
     }
 }

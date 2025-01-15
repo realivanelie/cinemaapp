@@ -15,26 +15,132 @@
                 <a href="/">Gestion de Cinéma</a>
             </div>
             <nav>
-                <ul>
+                <ul class="nav-links">
                     <li><a href="/">Accueil</a></li>
                     <li><a href="/films">Films</a></li>
                     <li><a href="/contact">Contact</a></li>
                     <li><a href="/about">À propos</a></li>
                 </ul>
+                <div class="search-bar">
+                    <input type="text" placeholder="Rechercher...">
+                    <button type="submit">🔍</button>
+                </div>
+                <div class="auth-links">
+                    <a href="/login" class="btn">Se connecter</a>
+                    <a href="/register" class="btn">Créer un compte</a>
+                </div>
             </nav>
         </div>
     </header>
 
     <!-- Main Content -->
     <main>
-        <h1>Bienvenue sur l'application de gestion de cinéma</h1>
+        <div class="h1">
+            <h1>Bienvenue sur l'application de gestion de cinéma</h1>
+        </div>
         <div class="slider">
-            <div><img src="/images/slide1.jpg" alt="Slide 1"></div>
-            <div><img src="/images/slide2.jpg" alt="Slide 2"></div>
-            <div><img src="/images/slide3.jpg" alt="Slide 3"></div>
+            <div><img src="/images/image1.webp" alt="Slide 1"></div>
+            <div><img src="/images/image2.jpg" alt="Slide 2"></div>
+            <div><img src="/images/image3.jpg" alt="Slide 3"></div>
         </div>
         <p>Découvrez les derniers films, réservez vos billets et plus encore !</p>
         <a href="/films">Voir les films</a>
+        <div class="film-gallery">
+            <div class="film-item">
+                <a class="film-poster" href="/films/1">
+                    <img src="https://image.tmdb.org/t/p/w500/kEIrL0GocdCPSBovvxLUd9ZoXi3.jpg" alt="The Forge">
+                    <div class="film-mask">
+                        <span class="fa fa-play-circle"></span>
+                    </div>
+                </a>
+                <div class="film-title">The Forge</div>
+            </div>
+            <div class="film-item">
+                <a class="film-poster" href="/films/2">
+                    <img src="https://image.tmdb.org/t/p/w300/8pwdnL3pEISIN1EGmwZzU6hpNVk.jpg" alt="Le Mauvais Camp 2">
+                    <div class="film-mask">
+                        <span class="fa fa-play-circle"></span>
+                    </div>
+                </a>
+                <div class="film-title">Le Mauvais Camp 2</div>
+            </div>
+            <div class="film-item">
+                <a class="film-poster" href="/films/3">
+                    <img src="https://image.tmdb.org/t/p/w300/uzdtS6BjQgEvYucEeVoIXL1lJht.jpg" alt="Messagères de guerre">
+                    <div class="film-mask">
+                        <span class="fa fa-play-circle"></span>
+                    </div>
+                </a>
+                <div class="film-title">Messagères de guerre</div>
+            </div>
+            <div class="film-item">
+                <a class="film-poster" href="/films/3">
+                    <img src="https://image.tmdb.org/t/p/w500/58QT4cPJ2u2TqWZkterDq9q4yxQ.jpg" alt="The Crow">
+                    <div class="film-mask">
+                        <span class="fa fa-play-circle"></span>
+                    </div>
+                </a>
+                <div class="film-title">The Crow</div>
+            </div>
+            <div class="film-item">
+                <a class="film-poster" href="/films/4">
+                    <img src="https://image.tmdb.org/t/p/w300/x3uAwi1ue9GHn3e4xoyGV28OAGj.jpg" alt="Kraven the Hunter">
+                    <div class="film-mask">
+                        <span class="fa fa-play-circle"></span>
+                    </div>
+                </a>
+                <div class="film-title">Kraven the Hunter</div>
+            </div>
+            <div class="film-item">
+                <a class="film-poster" href="/films/5">
+                    <img src="https://image.tmdb.org/t/p/w300/jbOSUAWMGzGL1L4EaUF8K6zYFo7.jpg" alt="Mufasa : Le Roi Lion">
+                    <div class="film-mask">
+                        <span class="fa fa-play-circle"></span>
+                    </div>
+                </a>
+                <div class="film-title">Mufasa : Le Roi Lion</div>
+            </div>
+        </div>
+        <div class="film-gallery">
+            <div class="film-item">
+                <a class="film-poster" href="/films/6">
+                    <img src="https://image.tmdb.org/t/p/w300/tqudmLEboBKhAIpusqZKio58VE0.jpg" alt="Carry-On">
+                    <div class="film-mask">
+                        <span class="fa fa-play-circle"></span>
+                    </div>
+                </a>
+                <div class="film-title">Carry-On</div>
+            </div>
+            <div class="film-item">
+                <a class="film-poster" href="/films/7">
+                    <img src="https://image.tmdb.org/t/p/w300/A5NTtJXdCVNMaLI310zfRh4e0RI.jpg" alt="Red One">
+                    <div class="film-mask">
+                        <span class="fa fa-play-circle"></span>
+                    </div>
+                </a>
+                <div class="film-title">Red One</div>
+            </div>
+            <div class="film-item">
+                <a class="film-poster" href="/films/8">
+                    <img src="https://image.tmdb.org/t/p/w300/uucVm4TBM07apHYoMwHnmvL5Mre.jpg" alt="Venom : The Last Dance">
+                    <div class="film-mask">
+                        <span class="fa fa-play-circle"></span>
+                    </div>
+                </a>
+                <div class="film-title">Venom : The Last Dance</div>
+            </div>
+            <div class="film-item">
+                <a class="film-poster" href="/films/9">
+                    <img src="https://image.tmdb.org/t/p/w300/lDsEyAgcOPD5fYJMp3zQFS3FCZj.jpg" alt="Heretic">
+                    <div class="film-mask">
+                        <span class="fa fa-play-circle"></span>
+                    </div>
+                </a>
+                <div class="film-title">Heretic</div>
+            </div>
+        </div>
+
+
     </main>
 
     <!-- Footer -->

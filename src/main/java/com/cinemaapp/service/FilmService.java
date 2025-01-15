@@ -1,10 +1,11 @@
 package com.cinemaapp.service;
 
+import java.util.List;
+
 import org.springframework.stereotype.Service;
+
 import com.cinemaapp.model.Film;
 import com.cinemaapp.repository.FilmRepository;
-import java.util.List;
-import java.util.Optional;
 
 @Service
 public class FilmService {
@@ -18,12 +19,11 @@ public class FilmService {
     }
 
     public List<Film> getAllFilms() {
-        return films;
+        return filmRepository.findAll();
     }
 
     public Film getFilmById(Long id) {
-        Optional<Film> film = filmRepository.findById(id);
-        return film.orElse(null); // Ou lancez une exception personnalisée
+        return filmRepository.findById(id).orElse(null); // Ou lancez une exception personnalisée
     }
 
     public Film addFilm(Film film) {

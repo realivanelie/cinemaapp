@@ -1,0 +1,621 @@
+2025-01-15 15:33:41 - Starting CinemaappApplicationTests using Java 17.0.13 with PID 44374 (started by realivanelie in /home/realivanelie/Téléchargements/cinemaapp)
+2025-01-15 15:33:41 - No active profile set, falling back to 1 default profile: "default"
+2025-01-15 15:33:42 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-15 15:33:42 - Finished Spring Data repository scanning in 46 ms. Found 4 JPA repository interfaces.
+2025-01-15 15:33:42 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-15 15:33:43 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-15 15:33:43 - HHH000026: Second-level cache disabled
+2025-01-15 15:33:43 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-15 15:33:43 - HikariPool-1 - Starting...
+2025-01-15 15:33:43 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70c31b17
+2025-01-15 15:33:43 - HikariPool-1 - Start completed.
+2025-01-15 15:33:43 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-15 15:33:43 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-15 15:33:44 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-15 15:33:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 15:33:44 - Global AuthenticationManager configured with UserDetailsService bean with name userService
+2025-01-15 15:33:44 - Adding welcome page template: index
+2025-01-15 15:33:44 - Will secure Or [Mvc [pattern='/secure/**']] with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:33:44 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:33:45 - Started CinemaappApplicationTests in 3.873 seconds (process running for 4.527)
+2025-01-15 15:33:45 - Initializing Spring TestDispatcherServlet ''
+2025-01-15 15:33:45 - Initializing Servlet ''
+2025-01-15 15:33:45 - Completed initialization in 1 ms
+2025-01-15 15:33:45 - Initializing Spring TestDispatcherServlet ''
+2025-01-15 15:33:45 - Initializing Servlet ''
+2025-01-15 15:33:45 - Completed initialization in 0 ms
+2025-01-15 15:33:46 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 15:33:46 - HikariPool-1 - Shutdown initiated...
+2025-01-15 15:33:46 - HikariPool-1 - Shutdown completed.
+2025-01-15 15:33:51 - Starting CinemaappApplication using Java 17.0.13 with PID 44637 (/home/realivanelie/Téléchargements/cinemaapp/target/classes started by realivanelie in /home/realivanelie/Téléchargements/cinemaapp)
+2025-01-15 15:33:51 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-15 15:33:51 - No active profile set, falling back to 1 default profile: "default"
+2025-01-15 15:33:51 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-15 15:33:51 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-15 15:33:51 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-15 15:33:51 - Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2025-01-15 15:33:52 - Tomcat initialized with port 8081 (http)
+2025-01-15 15:33:52 - Initializing ProtocolHandler ["http-nio-8081"]
+2025-01-15 15:33:52 - Starting service [Tomcat]
+2025-01-15 15:33:52 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-15 15:33:52 - Initializing Spring embedded WebApplicationContext
+2025-01-15 15:33:52 - Root WebApplicationContext: initialization completed in 780 ms
+2025-01-15 15:33:52 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-15 15:33:52 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-15 15:33:52 - HHH000026: Second-level cache disabled
+2025-01-15 15:33:52 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-15 15:33:52 - HikariPool-1 - Starting...
+2025-01-15 15:33:52 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b40a061
+2025-01-15 15:33:52 - HikariPool-1 - Start completed.
+2025-01-15 15:33:52 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-15 15:33:52 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-15 15:33:53 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-15 15:33:53 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 15:33:53 - Global AuthenticationManager configured with UserDetailsService bean with name userService
+2025-01-15 15:33:53 - Adding welcome page template: index
+2025-01-15 15:33:53 - Will secure Or [Mvc [pattern='/secure/**']] with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:33:53 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:33:53 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/cinema'
+2025-01-15 15:33:53 - LiveReload server is running on port 35729
+2025-01-15 15:33:54 - Starting ProtocolHandler ["http-nio-8081"]
+2025-01-15 15:33:54 - Tomcat started on port 8081 (http) with context path '/'
+2025-01-15 15:33:54 - Started CinemaappApplication in 2.944 seconds (process running for 3.203)
+2025-01-15 15:34:20 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-15 15:34:20 - Initializing Servlet 'dispatcherServlet'
+2025-01-15 15:34:20 - Completed initialization in 1 ms
+2025-01-15 15:34:20 - Securing GET /login
+2025-01-15 15:34:20 - Secured GET /login
+2025-01-15 15:34:20 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:20 - Securing GET /css/styles.css
+2025-01-15 15:34:20 - Secured GET /css/styles.css
+2025-01-15 15:34:20 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:20 - Securing GET /favicon.ico
+2025-01-15 15:34:20 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:20 - Redirecting to http://localhost:8081/login
+2025-01-15 15:34:20 - Securing GET /login
+2025-01-15 15:34:20 - Secured GET /login
+2025-01-15 15:34:21 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:22 - Securing GET /login
+2025-01-15 15:34:22 - Secured GET /login
+2025-01-15 15:34:22 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:22 - Securing GET /css/styles.css
+2025-01-15 15:34:22 - Secured GET /css/styles.css
+2025-01-15 15:34:22 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:22 - Securing GET /favicon.ico
+2025-01-15 15:34:22 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:22 - Redirecting to http://localhost:8081/login
+2025-01-15 15:34:22 - Securing GET /login
+2025-01-15 15:34:22 - Secured GET /login
+2025-01-15 15:34:22 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:23 - Securing GET /register
+2025-01-15 15:34:23 - Secured GET /register
+2025-01-15 15:34:23 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:23 - Securing GET /css/styles.css
+2025-01-15 15:34:23 - Secured GET /css/styles.css
+2025-01-15 15:34:23 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:23 - Securing GET /favicon.ico
+2025-01-15 15:34:23 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:23 - Redirecting to http://localhost:8081/login
+2025-01-15 15:34:23 - Securing GET /login
+2025-01-15 15:34:23 - Secured GET /login
+2025-01-15 15:34:23 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:30 - Securing POST /register
+2025-01-15 15:34:30 - Invalid CSRF token found for http://localhost:8081/register
+2025-01-15 15:34:30 - Responding with 403 status code
+2025-01-15 15:34:30 - Securing POST /error
+2025-01-15 15:34:30 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:30 - Redirecting to http://localhost:8081/login
+2025-01-15 15:34:30 - Securing GET /login
+2025-01-15 15:34:30 - Secured GET /login
+2025-01-15 15:34:30 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:30 - Securing GET /css/styles.css
+2025-01-15 15:34:30 - Secured GET /css/styles.css
+2025-01-15 15:34:30 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:30 - Securing GET /favicon.ico
+2025-01-15 15:34:30 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:30 - Redirecting to http://localhost:8081/login
+2025-01-15 15:34:30 - Securing GET /login
+2025-01-15 15:34:30 - Secured GET /login
+2025-01-15 15:34:30 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:36 - Securing POST /login
+2025-01-15 15:34:37 - Invalid CSRF token found for http://localhost:8081/login
+2025-01-15 15:34:37 - Responding with 403 status code
+2025-01-15 15:34:37 - Securing POST /error
+2025-01-15 15:34:37 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:37 - Redirecting to http://localhost:8081/login
+2025-01-15 15:34:37 - Securing GET /login
+2025-01-15 15:34:37 - Secured GET /login
+2025-01-15 15:34:37 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:37 - Securing GET /css/styles.css
+2025-01-15 15:34:37 - Secured GET /css/styles.css
+2025-01-15 15:34:37 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:37 - Securing GET /favicon.ico
+2025-01-15 15:34:37 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:34:37 - Redirecting to http://localhost:8081/login
+2025-01-15 15:34:37 - Securing GET /login
+2025-01-15 15:34:37 - Secured GET /login
+2025-01-15 15:34:37 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:04 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-15 15:40:04 - Graceful shutdown complete
+2025-01-15 15:40:04 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 15:40:04 - HikariPool-1 - Shutdown initiated...
+2025-01-15 15:40:04 - HikariPool-1 - Shutdown completed.
+2025-01-15 15:40:10 - Starting CinemaappApplicationTests using Java 17.0.13 with PID 47228 (started by realivanelie in /home/realivanelie/Téléchargements/cinemaapp)
+2025-01-15 15:40:10 - No active profile set, falling back to 1 default profile: "default"
+2025-01-15 15:40:11 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-15 15:40:11 - Finished Spring Data repository scanning in 44 ms. Found 4 JPA repository interfaces.
+2025-01-15 15:40:11 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-15 15:40:11 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-15 15:40:11 - HHH000026: Second-level cache disabled
+2025-01-15 15:40:11 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-15 15:40:11 - HikariPool-1 - Starting...
+2025-01-15 15:40:12 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8debe42
+2025-01-15 15:40:12 - HikariPool-1 - Start completed.
+2025-01-15 15:40:12 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-15 15:40:12 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-15 15:40:12 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-15 15:40:12 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 15:40:13 - Global AuthenticationManager configured with UserDetailsService bean with name userService
+2025-01-15 15:40:13 - Adding welcome page template: index
+2025-01-15 15:40:13 - Will secure Or [Mvc [pattern='/secure/**']] with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:40:13 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:40:14 - Started CinemaappApplicationTests in 4.139 seconds (process running for 4.959)
+2025-01-15 15:40:14 - Initializing Spring TestDispatcherServlet ''
+2025-01-15 15:40:14 - Initializing Servlet ''
+2025-01-15 15:40:14 - Completed initialization in 0 ms
+2025-01-15 15:40:15 - Initializing Spring TestDispatcherServlet ''
+2025-01-15 15:40:15 - Initializing Servlet ''
+2025-01-15 15:40:15 - Completed initialization in 1 ms
+2025-01-15 15:40:15 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 15:40:15 - HikariPool-1 - Shutdown initiated...
+2025-01-15 15:40:15 - HikariPool-1 - Shutdown completed.
+2025-01-15 15:40:26 - Starting CinemaappApplication using Java 17.0.13 with PID 47526 (/home/realivanelie/Téléchargements/cinemaapp/target/classes started by realivanelie in /home/realivanelie/Téléchargements/cinemaapp)
+2025-01-15 15:40:26 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-15 15:40:26 - No active profile set, falling back to 1 default profile: "default"
+2025-01-15 15:40:26 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-15 15:40:26 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-15 15:40:26 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-15 15:40:26 - Finished Spring Data repository scanning in 26 ms. Found 4 JPA repository interfaces.
+2025-01-15 15:40:27 - Tomcat initialized with port 8081 (http)
+2025-01-15 15:40:27 - Initializing ProtocolHandler ["http-nio-8081"]
+2025-01-15 15:40:27 - Starting service [Tomcat]
+2025-01-15 15:40:27 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-15 15:40:27 - Initializing Spring embedded WebApplicationContext
+2025-01-15 15:40:27 - Root WebApplicationContext: initialization completed in 766 ms
+2025-01-15 15:40:27 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-15 15:40:27 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-15 15:40:27 - HHH000026: Second-level cache disabled
+2025-01-15 15:40:27 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-15 15:40:27 - HikariPool-1 - Starting...
+2025-01-15 15:40:27 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d971b6
+2025-01-15 15:40:27 - HikariPool-1 - Start completed.
+2025-01-15 15:40:27 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-15 15:40:27 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-15 15:40:28 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-15 15:40:28 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 15:40:28 - Global AuthenticationManager configured with UserDetailsService bean with name userService
+2025-01-15 15:40:28 - Adding welcome page template: index
+2025-01-15 15:40:28 - Will secure Or [Mvc [pattern='/secure/**']] with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:40:28 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:40:29 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/cinema'
+2025-01-15 15:40:29 - LiveReload server is running on port 35729
+2025-01-15 15:40:29 - Starting ProtocolHandler ["http-nio-8081"]
+2025-01-15 15:40:29 - Tomcat started on port 8081 (http) with context path '/'
+2025-01-15 15:40:29 - Started CinemaappApplication in 2.835 seconds (process running for 3.034)
+2025-01-15 15:40:57 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-15 15:40:57 - Initializing Servlet 'dispatcherServlet'
+2025-01-15 15:40:57 - Completed initialization in 1 ms
+2025-01-15 15:40:57 - Securing GET /login
+2025-01-15 15:40:57 - Secured GET /login
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:57 - Securing GET /css/styles.css
+2025-01-15 15:40:57 - Secured GET /css/styles.css
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:57 - Securing GET /favicon.ico
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:57 - Redirecting to http://localhost:8081/login
+2025-01-15 15:40:57 - Securing GET /login
+2025-01-15 15:40:57 - Secured GET /login
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:57 - Securing GET /login
+2025-01-15 15:40:57 - Secured GET /login
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:57 - Securing GET /css/styles.css
+2025-01-15 15:40:57 - Secured GET /css/styles.css
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:57 - Securing GET /favicon.ico
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:57 - Redirecting to http://localhost:8081/login
+2025-01-15 15:40:57 - Securing GET /login
+2025-01-15 15:40:57 - Secured GET /login
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:57 - Securing GET /login
+2025-01-15 15:40:57 - Secured GET /login
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:57 - Securing GET /css/styles.css
+2025-01-15 15:40:57 - Secured GET /css/styles.css
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:57 - Securing GET /favicon.ico
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:57 - Redirecting to http://localhost:8081/login
+2025-01-15 15:40:57 - Securing GET /login
+2025-01-15 15:40:57 - Secured GET /login
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:57 - Securing GET /login
+2025-01-15 15:40:57 - Secured GET /login
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:57 - Securing GET /css/styles.css
+2025-01-15 15:40:57 - Secured GET /css/styles.css
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:57 - Securing GET /favicon.ico
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:57 - Redirecting to http://localhost:8081/login
+2025-01-15 15:40:57 - Securing GET /login
+2025-01-15 15:40:57 - Secured GET /login
+2025-01-15 15:40:57 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:58 - Securing GET /login
+2025-01-15 15:40:58 - Secured GET /login
+2025-01-15 15:40:58 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:58 - Securing GET /css/styles.css
+2025-01-15 15:40:58 - Secured GET /css/styles.css
+2025-01-15 15:40:58 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:58 - Securing GET /favicon.ico
+2025-01-15 15:40:58 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:58 - Redirecting to http://localhost:8081/login
+2025-01-15 15:40:58 - Securing GET /login
+2025-01-15 15:40:58 - Secured GET /login
+2025-01-15 15:40:58 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:58 - Securing GET /login
+2025-01-15 15:40:58 - Secured GET /login
+2025-01-15 15:40:58 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:58 - Securing GET /css/styles.css
+2025-01-15 15:40:58 - Secured GET /css/styles.css
+2025-01-15 15:40:58 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:58 - Securing GET /favicon.ico
+2025-01-15 15:40:58 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:40:58 - Redirecting to http://localhost:8081/login
+2025-01-15 15:40:58 - Securing GET /login
+2025-01-15 15:40:58 - Secured GET /login
+2025-01-15 15:40:58 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:41:04 - Securing POST /login
+2025-01-15 15:41:04 - Invalid CSRF token found for http://localhost:8081/login
+2025-01-15 15:41:04 - Responding with 403 status code
+2025-01-15 15:41:04 - Securing POST /error
+2025-01-15 15:41:04 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:41:04 - Redirecting to http://localhost:8081/login
+2025-01-15 15:41:04 - Securing GET /login
+2025-01-15 15:41:04 - Secured GET /login
+2025-01-15 15:41:04 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:41:04 - Securing GET /css/styles.css
+2025-01-15 15:41:04 - Secured GET /css/styles.css
+2025-01-15 15:41:04 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:41:04 - Securing GET /favicon.ico
+2025-01-15 15:41:04 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:41:04 - Redirecting to http://localhost:8081/login
+2025-01-15 15:41:04 - Securing GET /login
+2025-01-15 15:41:04 - Secured GET /login
+2025-01-15 15:41:04 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:43:22 - Securing GET /users
+2025-01-15 15:43:22 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:43:22 - Saved request http://localhost:8081/users?continue to session
+2025-01-15 15:43:22 - Redirecting to http://localhost:8081/login
+2025-01-15 15:43:22 - Securing GET /login
+2025-01-15 15:43:22 - Secured GET /login
+2025-01-15 15:43:22 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:43:22 - Securing GET /css/styles.css
+2025-01-15 15:43:22 - Secured GET /css/styles.css
+2025-01-15 15:43:22 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:43:22 - Securing GET /favicon.ico
+2025-01-15 15:43:22 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:43:22 - Redirecting to http://localhost:8081/login
+2025-01-15 15:43:22 - Securing GET /login
+2025-01-15 15:43:22 - Secured GET /login
+2025-01-15 15:43:22 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:43:32 - Securing GET /users
+2025-01-15 15:43:32 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:43:32 - Saved request http://localhost:8081/users?continue to session
+2025-01-15 15:43:32 - Redirecting to http://localhost:8081/login
+2025-01-15 15:43:32 - Securing GET /login
+2025-01-15 15:43:32 - Secured GET /login
+2025-01-15 15:43:32 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:43:32 - Securing GET /css/styles.css
+2025-01-15 15:43:32 - Secured GET /css/styles.css
+2025-01-15 15:43:32 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:43:32 - Securing GET /favicon.ico
+2025-01-15 15:43:32 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:43:32 - Redirecting to http://localhost:8081/login
+2025-01-15 15:43:32 - Securing GET /login
+2025-01-15 15:43:32 - Secured GET /login
+2025-01-15 15:43:32 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:44:41 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-15 15:44:41 - Graceful shutdown complete
+2025-01-15 15:44:41 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 15:44:41 - HikariPool-1 - Shutdown initiated...
+2025-01-15 15:44:41 - HikariPool-1 - Shutdown completed.
+2025-01-15 15:44:52 - Starting CinemaappApplicationTests using Java 17.0.13 with PID 48418 (started by realivanelie in /home/realivanelie/Téléchargements/cinemaapp)
+2025-01-15 15:44:52 - No active profile set, falling back to 1 default profile: "default"
+2025-01-15 15:44:53 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-15 15:44:53 - Finished Spring Data repository scanning in 39 ms. Found 4 JPA repository interfaces.
+2025-01-15 15:44:54 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-15 15:44:54 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-15 15:44:54 - HHH000026: Second-level cache disabled
+2025-01-15 15:44:54 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-15 15:44:54 - HikariPool-1 - Starting...
+2025-01-15 15:44:54 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@236fd411
+2025-01-15 15:44:54 - HikariPool-1 - Start completed.
+2025-01-15 15:44:54 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-15 15:44:54 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-15 15:44:55 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-15 15:44:55 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 15:44:55 - Global AuthenticationManager configured with UserDetailsService bean with name userService
+2025-01-15 15:44:56 - Adding welcome page template: index
+2025-01-15 15:44:56 - Will secure Or [Mvc [pattern='/secure/**']] with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:44:56 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:44:56 - Started CinemaappApplicationTests in 4.389 seconds (process running for 5.072)
+2025-01-15 15:44:57 - Initializing Spring TestDispatcherServlet ''
+2025-01-15 15:44:57 - Initializing Servlet ''
+2025-01-15 15:44:57 - Completed initialization in 1 ms
+2025-01-15 15:44:57 - Initializing Spring TestDispatcherServlet ''
+2025-01-15 15:44:57 - Initializing Servlet ''
+2025-01-15 15:44:57 - Completed initialization in 0 ms
+2025-01-15 15:44:57 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 15:44:57 - HikariPool-1 - Shutdown initiated...
+2025-01-15 15:44:57 - HikariPool-1 - Shutdown completed.
+2025-01-15 15:45:11 - Starting CinemaappApplication using Java 17.0.13 with PID 48735 (/home/realivanelie/Téléchargements/cinemaapp/target/classes started by realivanelie in /home/realivanelie/Téléchargements/cinemaapp)
+2025-01-15 15:45:11 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-15 15:45:11 - No active profile set, falling back to 1 default profile: "default"
+2025-01-15 15:45:11 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-15 15:45:11 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-15 15:45:11 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-15 15:45:11 - Finished Spring Data repository scanning in 25 ms. Found 4 JPA repository interfaces.
+2025-01-15 15:45:12 - Tomcat initialized with port 8081 (http)
+2025-01-15 15:45:12 - Initializing ProtocolHandler ["http-nio-8081"]
+2025-01-15 15:45:12 - Starting service [Tomcat]
+2025-01-15 15:45:12 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-15 15:45:12 - Initializing Spring embedded WebApplicationContext
+2025-01-15 15:45:12 - Root WebApplicationContext: initialization completed in 804 ms
+2025-01-15 15:45:12 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-15 15:45:12 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-15 15:45:12 - HHH000026: Second-level cache disabled
+2025-01-15 15:45:12 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-15 15:45:12 - HikariPool-1 - Starting...
+2025-01-15 15:45:12 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2fdb403b
+2025-01-15 15:45:12 - HikariPool-1 - Start completed.
+2025-01-15 15:45:12 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-15 15:45:12 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-15 15:45:13 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-15 15:45:13 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 15:45:13 - Global AuthenticationManager configured with UserDetailsService bean with name userService
+2025-01-15 15:45:13 - Adding welcome page template: index
+2025-01-15 15:45:13 - Will secure Or [Mvc [pattern='/secure/**']] with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:45:13 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:45:14 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/cinema'
+2025-01-15 15:45:14 - LiveReload server is running on port 35729
+2025-01-15 15:45:14 - Starting ProtocolHandler ["http-nio-8081"]
+2025-01-15 15:45:14 - Tomcat started on port 8081 (http) with context path '/'
+2025-01-15 15:45:14 - Started CinemaappApplication in 2.899 seconds (process running for 3.116)
+2025-01-15 15:48:34 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-15 15:48:34 - Graceful shutdown complete
+2025-01-15 15:48:34 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 15:48:34 - HikariPool-1 - Shutdown initiated...
+2025-01-15 15:48:34 - HikariPool-1 - Shutdown completed.
+2025-01-15 15:48:44 - Starting CinemaappApplicationTests using Java 17.0.13 with PID 49376 (started by realivanelie in /home/realivanelie/Téléchargements/cinemaapp)
+2025-01-15 15:48:44 - No active profile set, falling back to 1 default profile: "default"
+2025-01-15 15:48:44 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-15 15:48:44 - Finished Spring Data repository scanning in 29 ms. Found 4 JPA repository interfaces.
+2025-01-15 15:48:45 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-15 15:48:45 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-15 15:48:45 - HHH000026: Second-level cache disabled
+2025-01-15 15:48:45 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-15 15:48:45 - HikariPool-1 - Starting...
+2025-01-15 15:48:45 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7df3da0b
+2025-01-15 15:48:45 - HikariPool-1 - Start completed.
+2025-01-15 15:48:45 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-15 15:48:45 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-15 15:48:46 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-15 15:48:46 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 15:48:47 - Global AuthenticationManager configured with UserDetailsService bean with name userService
+2025-01-15 15:48:47 - Adding welcome page template: index
+2025-01-15 15:48:47 - Will secure Or [Mvc [pattern='/secure/**']] with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:48:47 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:48:47 - Started CinemaappApplicationTests in 3.827 seconds (process running for 4.509)
+2025-01-15 15:48:48 - Initializing Spring TestDispatcherServlet ''
+2025-01-15 15:48:48 - Initializing Servlet ''
+2025-01-15 15:48:48 - Completed initialization in 1 ms
+2025-01-15 15:48:48 - Initializing Spring TestDispatcherServlet ''
+2025-01-15 15:48:48 - Initializing Servlet ''
+2025-01-15 15:48:48 - Completed initialization in 0 ms
+2025-01-15 15:48:48 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 15:48:48 - HikariPool-1 - Shutdown initiated...
+2025-01-15 15:48:48 - HikariPool-1 - Shutdown completed.
+2025-01-15 15:48:53 - Starting CinemaappApplication using Java 17.0.13 with PID 49652 (/home/realivanelie/Téléchargements/cinemaapp/target/classes started by realivanelie in /home/realivanelie/Téléchargements/cinemaapp)
+2025-01-15 15:48:53 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-15 15:48:53 - No active profile set, falling back to 1 default profile: "default"
+2025-01-15 15:48:53 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-15 15:48:53 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-15 15:48:53 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-15 15:48:53 - Finished Spring Data repository scanning in 25 ms. Found 4 JPA repository interfaces.
+2025-01-15 15:48:54 - Tomcat initialized with port 8081 (http)
+2025-01-15 15:48:54 - Initializing ProtocolHandler ["http-nio-8081"]
+2025-01-15 15:48:54 - Starting service [Tomcat]
+2025-01-15 15:48:54 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-15 15:48:54 - Initializing Spring embedded WebApplicationContext
+2025-01-15 15:48:54 - Root WebApplicationContext: initialization completed in 758 ms
+2025-01-15 15:48:54 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-15 15:48:54 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-15 15:48:54 - HHH000026: Second-level cache disabled
+2025-01-15 15:48:54 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-15 15:48:54 - HikariPool-1 - Starting...
+2025-01-15 15:48:54 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@730b67fa
+2025-01-15 15:48:54 - HikariPool-1 - Start completed.
+2025-01-15 15:48:54 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-15 15:48:54 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-15 15:48:55 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-15 15:48:55 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 15:48:55 - Global AuthenticationManager configured with UserDetailsService bean with name userService
+2025-01-15 15:48:55 - Adding welcome page template: index
+2025-01-15 15:48:55 - Will secure Or [Mvc [pattern='/secure/**']] with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:48:55 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-01-15 15:48:55 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/cinema'
+2025-01-15 15:48:55 - LiveReload server is running on port 35729
+2025-01-15 15:48:55 - Starting ProtocolHandler ["http-nio-8081"]
+2025-01-15 15:48:55 - Tomcat started on port 8081 (http) with context path '/'
+2025-01-15 15:48:55 - Started CinemaappApplication in 2.832 seconds (process running for 3.102)
+2025-01-15 15:49:11 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-15 15:49:11 - Initializing Servlet 'dispatcherServlet'
+2025-01-15 15:49:11 - Completed initialization in 1 ms
+2025-01-15 15:49:11 - Securing GET /login
+2025-01-15 15:49:11 - Secured GET /login
+2025-01-15 15:49:11 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:11 - Securing GET /css/styles.css
+2025-01-15 15:49:11 - Secured GET /css/styles.css
+2025-01-15 15:49:11 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:11 - Securing GET /favicon.ico
+2025-01-15 15:49:11 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:11 - Redirecting to http://localhost:8081/login
+2025-01-15 15:49:11 - Securing GET /login
+2025-01-15 15:49:11 - Secured GET /login
+2025-01-15 15:49:11 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:15 - Securing GET /
+2025-01-15 15:49:15 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:15 - Saved request http://localhost:8081/?continue to session
+2025-01-15 15:49:15 - Redirecting to http://localhost:8081/login
+2025-01-15 15:49:15 - Securing GET /login
+2025-01-15 15:49:15 - Secured GET /login
+2025-01-15 15:49:15 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:15 - Securing GET /css/styles.css
+2025-01-15 15:49:15 - Secured GET /css/styles.css
+2025-01-15 15:49:15 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:15 - Securing GET /favicon.ico
+2025-01-15 15:49:15 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:15 - Redirecting to http://localhost:8081/login
+2025-01-15 15:49:15 - Securing GET /login
+2025-01-15 15:49:15 - Secured GET /login
+2025-01-15 15:49:15 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:26 - Securing POST /login
+2025-01-15 15:49:26 - Invalid CSRF token found for http://localhost:8081/login
+2025-01-15 15:49:26 - Responding with 403 status code
+2025-01-15 15:49:26 - Securing POST /error
+2025-01-15 15:49:26 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:26 - Redirecting to http://localhost:8081/login
+2025-01-15 15:49:26 - Securing GET /login
+2025-01-15 15:49:26 - Secured GET /login
+2025-01-15 15:49:26 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:27 - Securing GET /css/styles.css
+2025-01-15 15:49:27 - Secured GET /css/styles.css
+2025-01-15 15:49:27 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:27 - Securing GET /favicon.ico
+2025-01-15 15:49:27 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:27 - Redirecting to http://localhost:8081/login
+2025-01-15 15:49:27 - Securing GET /login
+2025-01-15 15:49:27 - Secured GET /login
+2025-01-15 15:49:27 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:30 - Securing GET /register
+2025-01-15 15:49:30 - Secured GET /register
+2025-01-15 15:49:30 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:30 - Securing GET /css/styles.css
+2025-01-15 15:49:30 - Secured GET /css/styles.css
+2025-01-15 15:49:30 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:30 - Securing GET /favicon.ico
+2025-01-15 15:49:30 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:30 - Redirecting to http://localhost:8081/login
+2025-01-15 15:49:30 - Securing GET /login
+2025-01-15 15:49:31 - Secured GET /login
+2025-01-15 15:49:31 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:47 - Securing POST /register
+2025-01-15 15:49:47 - Invalid CSRF token found for http://localhost:8081/register
+2025-01-15 15:49:47 - Responding with 403 status code
+2025-01-15 15:49:47 - Securing POST /error
+2025-01-15 15:49:47 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:47 - Redirecting to http://localhost:8081/login
+2025-01-15 15:49:47 - Securing GET /login
+2025-01-15 15:49:47 - Secured GET /login
+2025-01-15 15:49:47 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:47 - Securing GET /css/styles.css
+2025-01-15 15:49:47 - Secured GET /css/styles.css
+2025-01-15 15:49:47 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:47 - Securing GET /favicon.ico
+2025-01-15 15:49:47 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:47 - Redirecting to http://localhost:8081/login
+2025-01-15 15:49:47 - Securing GET /login
+2025-01-15 15:49:47 - Secured GET /login
+2025-01-15 15:49:47 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:54 - Securing POST /login
+2025-01-15 15:49:54 - Invalid CSRF token found for http://localhost:8081/login
+2025-01-15 15:49:54 - Responding with 403 status code
+2025-01-15 15:49:54 - Securing POST /error
+2025-01-15 15:49:54 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:54 - Redirecting to http://localhost:8081/login
+2025-01-15 15:49:54 - Securing GET /login
+2025-01-15 15:49:54 - Secured GET /login
+2025-01-15 15:49:54 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:54 - Securing GET /css/styles.css
+2025-01-15 15:49:54 - Secured GET /css/styles.css
+2025-01-15 15:49:54 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:54 - Securing GET /favicon.ico
+2025-01-15 15:49:54 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 15:49:54 - Redirecting to http://localhost:8081/login
+2025-01-15 15:49:54 - Securing GET /login
+2025-01-15 15:49:54 - Secured GET /login
+2025-01-15 15:49:54 - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-15 16:22:25 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-15 16:22:25 - Graceful shutdown complete
+2025-01-15 16:22:25 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-15 16:22:25 - HikariPool-1 - Shutdown initiated...
+2025-01-15 16:22:25 - HikariPool-1 - Shutdown completed.

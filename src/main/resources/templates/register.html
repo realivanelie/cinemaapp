@@ -2,20 +2,48 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Inscription</title>
+    <title>Inscription - Gestion de Cinéma</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <h1>Inscription</h1>
-    <form action="/register" method="post">
-        <label for="nom">Nom:</label>
-        <input type="text" id="nom" name="nom" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="password">Mot de passe:</label>
-        <input type="password" id="password" name="password" required>
-        <button type="submit">S'inscrire</button>
-    </form>
-    <p>Vous avez déjà un compte ? <a href="/login">Connectez-vous ici</a>.</p>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/">Gestion de Cinéma</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/films">Films</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/about">À propos</a></li>
+                </ul>
+                <div class="search-bar">
+                    <input type="text" placeholder="Rechercher...">
+                    <button type="submit">🔍</button>
+                </div>
+                <div class="auth-links">
+                    <a href="/login" class="btn">Se connecter</a>
+                    <a href="/register" class="btn">Créer un compte</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="log">
+            <h1>Inscription</h1>
+            <form action="/register" method="post">
+                <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Mot de passe:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Créer un compte</button>
+            </form>
+            <p>Vous avez déjà un compte ? <a href="/login">Connectez-vous ici</a>.</p>
+        </div>
+    </main>
 </body>
 </html>

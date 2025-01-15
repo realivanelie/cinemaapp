@@ -2,18 +2,46 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Connexion</title>
+    <title>Connexion - Gestion de Cinéma</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <h1>Connexion</h1>
-    <form action="/login" method="post">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="password">Mot de passe:</label>
-        <input type="password" id="password" name="password" required>
-        <button type="submit">Se connecter</button>
-    </form>
-    <p>Vous n'avez pas de compte ? <a href="/register">Inscrivez-vous ici</a>.</p>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/">Gestion de Cinéma</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/films">Films</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/about">À propos</a></li>
+                </ul>
+                <div class="search-bar">
+                    <input type="text" placeholder="Rechercher...">
+                    <button type="submit">🔍</button>
+                </div>
+                <div class="auth-links">
+                    <a href="/login" class="btn">Se connecter</a>
+                    <a href="/register" class="btn">Créer un compte</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="log">
+            <h1>Connexion</h1>
+            <form action="/login" method="post">
+                <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Mot de passe:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Se connecter</button>
+            </form>
+            <p>Vous n'avez pas de compte ? <a href="/register">Inscrivez-vous ici</a>.</p>
+        </div>
+    </main>
 </body>
 </html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/">Gestion de Cinéma</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/films">Films</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/about">À propos</a></li>
+                </ul>
+                <div class="search">
+                    <input type="search" placeholder="Search the site…" id="site-search" name="q" />
+
+                        <button>Search</button>
+                </div>
+                <div class="auth-links">
+                    <a href="/login" class="btn">Se connecter</a>
+                    <a href="/register" class="btn">Créer un compte</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Contactez-nous</h1>
+        <p th:text="${message}"></p>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gestion de Cinéma. Tous droits réservés.</p>
+            <nav>
+                <ul>
+                    <li><a href="/privacy">Politique de confidentialité</a></li>
+                    <li><a href="/terms">Conditions d'utilisation</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
